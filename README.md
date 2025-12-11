@@ -12,7 +12,7 @@ win = turtle.Screen()
 win.title("Snake Game ")
 win.bgcolor("black")
 win.setup(width=600, height=600)
-win.tracer(0)  # Turns off screen updates
+win.tracer(0)  # Turns off screen updates 
 
 # Snake head
 head = turtle.Turtle()
@@ -161,4 +161,5 @@ while True:
     time.sleep(delay)
 
 win.mainloop()
+
 
